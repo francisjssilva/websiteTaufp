@@ -1,0 +1,14 @@
+<div id="title">Historial</div>
+<div class="cleaner2"></div>					
+<p>A Tuna Académica da Universidade Fernando Pessoa, da antiga sempre leal e <i>mui nobre</i> cidade do Porto, foi fundada a 12 de Outubro de 1994 contando, desde então, com 25 fiéis da boémia, da música e de espírito académico invejável.</p>
+<p>Com objectivos vincados, sempre a par da música tradicional e/ou popular portuguesa, esta Tuna conseguiu superar alguns sonhos de outrora, chegando a despertar várias atenções graças à sua jovialidade, alegria, companheirismo... e tantos outros adjectivos que são uma maneira permanente de ser e de estar deste grupo.</p>
+<p>Apadrinhada pela Tuna Universitária do Minho, a Tuna Académica da Universidade Fernando Pessoa conta, actualmente, com vinte e tantos mocinhos, charmosos, sérios, solteiros, mas um nadinha mentirosos, que cantam e encantam as donzelas, com as muitas serenatas, dividindo cumplicidade com a Lua e com as ruas da Invicta.</p>
+<p><i>Invicta</i> é a denominação perfeita para o Festival de Tunas Académicas, que faltava à Academia do Porto, e que junta as melhores tunas deste país à beira-mar plantado. Os dias "Invictos" são repletos de trovas, risos e folia... sendo assim um festival marcante para todos os seus participantes.</p>
+<p>O <i>Invicta</i> lançou, deste modo, mais um trabalho discográfico da Tuna Académica da Universidade Fernando Pessoa (e não só), registando em CD ao vivo, dois dias de Festival no lendário Teatro Sá da Bandeira. Recordamos que a nossa primeira gravação data de 1995, com onze temas.</p>
+<p>De facto, esta entusiasta Tuna, bem que se pode orgulhar de ter assinalado a presença em quase todos os festivais de tunas mais importantes do país, mas o nosso orgulho balança entre o convívio nas ruas, serenatas a donzelas e entre trovas a céu aberto, percorrendo Portugal continental de lés a lés, bem como as ilhas.</p>
+<p>Em 15 de Agosto de 1996, os discípulos de Pedro Álvares Cabral, lá se aventuraram a cruzar o oceano até ao Brasil, que visitaram, conquistaram e dominaram desde o Rio Grande do Sul, Amazónia, Nordeste, Rio de Janeiro (...), até às instâncias balneares de Pedras Rubras.</p>
+<p>A Tuna Académica da Universidade Fernando Pessoa assinalou ainda a sua presença em terras gaulesas e também no Norte de África, mais concretamente na Tunísia. Nestas viagens, além de embaixadores por excelência da música e tradições nacionais, criaram-se raízes tais que ficarão gravadas no consciente de cada um, ao longo da vida.</p><p>Para todos aqueles, que fazem do seu curso e da sua Universidade, uma viagem de poucos anos, deixem-nos dar-lhes um conselho:</p>
+<br>
+<p>"Aproveitem o melhor da vivência académica, pois será dela que terão mais saudades e donde surgirão as histórias para contar aos netos."</p>
+<br><br>
+<p>A todos um forte e sincero</p><p>Bem hajam</p>

@@ -1,0 +1,179 @@
+		html, body {
+			background-color: #000;
+			color: #FFF;
+			font-family: Arial;
+			font-size: 12px;
+			width: 100%;
+			height: 100%;
+		}
+
+		html {
+			display: table;
+		}
+
+		body {
+			display: table-cell;
+			vertical-align: middle;
+			font-size: 14px;
+		}
+
+		.text {
+			text-align: justify;
+			font-size: 14px;
+		}
+
+		.top {
+			position: relative;
+			top: 0;
+			z-index: 999;
+			width: 100%;
+			text-align: center;
+			background-color: #000;
+		}
+
+		.mid {
+			position: relative;
+			width: 100%;
+			display: table-cell;
+			vertical-align: middle;
+			background-color: #222;
+			color: #FFF;
+			border-top: 1px solid;
+			border-bottom: 1px solid;
+			border-top-color: #FFF;
+			border-bottom-color: #FFF;
+			margin: 0px;
+			text-align: center;
+			font-family: Arial;
+		}
+
+		.mid1 {
+			width: 100%;
+			height: 100%;
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+		.mid1:after {
+			content: '';
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			width: 30px;
+			height: 60px;
+			background-image: url(../img/bottomnandinho.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			transform: translate(-50%, -50%);
+			border-top: inherit;
+			border-top-color: transparent;
+		}
+
+		.footer {
+			bottom: 0px;
+			width: 100%;
+			height: 100px;
+			text-align: center;
+			font-size: 12px;
+		}
+
+		table {
+			background-color: #000;
+			padding: 4% 4% 4% 4%;
+		}
+
+		.title {
+			font-size: 24px;
+			color: #FFF;
+			text-align: center;
+		}
+
+		.title2 {
+			font-size: 22px;
+			color: #FFF;
+			text-align: center;
+		}
+
+		a:link, a:visited, a:active {
+			color: #FFF;
+			text-decoration: none;
+			padding: 6px 8px;
+			border-radius: 8px;
+		}
+
+		/* mouse over link */
+
+		a:hover {
+			color: #000;
+			background-color: #FFF;
+			text-decoration: none;
+		}
+
+		.hvrbox, .hvrbox * {
+			box-sizing: border-box;
+		}
+
+		.hvrbox {
+			position: relative;
+			display: inline-block;
+			overflow: hidden;
+			width: 100%;
+			height: 100%;
+		}
+
+		.hvrbox img {
+			max-width: 100%;
+		}
+
+		.hvrbox .hvrbox-layer_bottom {
+			display: block;
+		}
+
+		.hvrbox .hvrbox-layer_top {
+			opacity: 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.6);
+			color: #fff;
+			padding: 15px;
+			-moz-transition: all 0.4s ease-in-out 0s;
+			-webkit-transition: all 0.4s ease-in-out 0s;
+			-ms-transition: all 0.4s ease-in-out 0s;
+			transition: all 0.4s ease-in-out 0s;
+		}
+
+		.hvrbox:hover .hvrbox-layer_top, .hvrbox.active .hvrbox-layer_top {
+			opacity: 1;
+		}
+
+		.hvrbox .hvrbox-text {
+			text-align: center;
+			font-size: 120%;
+			display: inline-block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-moz-transform: translate(-50%, -50%);
+			-webkit-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+		}
+
+		.hvrbox .hvrbox-text_mobile {
+			font-size: 15px;
+			border-top: 1px solid rgb(179, 179, 179);
+			/* for old browsers */
+			border-top: 1px solid rgba(179, 179, 179, 0.7);
+			margin-top: 5px;
+			padding-top: 2px;
+			display: none;
+		}
+
+		.hvrbox.active .hvrbox-text_mobile {
+			display: block;
+		}

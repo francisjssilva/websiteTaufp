@@ -1,0 +1,361 @@
+/* Stylesheet website TAUFP */
+	
+body {
+	margin: 0px 0px 10px 0px;
+	padding: 0;
+	font: 11px Verdana, Geneva, Helvetica, sans-serif;
+	line-height: 20px;
+	color: #ABABAB;
+	background: #2c2E2a;
+	text-align: center;  /* correction ie */
+}
+
+#global { 
+	margin: 0px auto; /* correction firefox */
+}
+
+td, tr { 
+	font-weight: normal; 
+	text-decoration: none; 
+	font-size: 11px;
+	padding: 5px 20px 0px 0px;
+}
+
+
+#title { 
+	font-weight: normal; 
+	text-decoration: none; 
+	color: #ABABAB;
+	border-bottom: 2px solid #fff;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+#h2 { 
+	font-weight: normal; 
+	text-decoration: none; 
+	color: #ABABAB;
+	border-bottom: 2px solid #fff;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#h1 { 
+	font-weight: normal; 
+	text-decoration: none; 
+	color: #ABABAB;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+#footer {
+	position: relative;  /* Needed for Safari */
+	background: #B3B3B3;
+	height: 30px;
+	line-height: 30px;
+	color: #000;
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+	text-align: center;
+}
+
+#footer a:link { 
+	font-weight: normal; 
+	text-decoration: none; 
+	color: #fff;
+}
+#footer a:visited { 
+	font-weight: normal; 
+	text-decoration: none; 
+	color: #fff;
+}
+#footer a:hover, a:active { 
+	text-decoration: underline; 
+	color: #fff;
+}
+			
+#footer h1 {
+	padding-bottom: 0;
+}
+
+	
+#top { 
+	min-height: 170px;
+	background: #fff;
+	/* background: url(images/introbac.jpg) bottom center no-repeat; */
+	width: 100%;
+	float: left;
+	padding: 10px 0px 0px 0px;
+}
+	
+/* Fix voor IE */
+* html #top
+{
+	height: 170px;
+}	
+	/* @group My Group */
+
+	/* remover center ? */
+#center { 
+	min-height: 100px;
+	background: url(layout/middenba.gif) top left repeat-x;
+}
+/* Fix voor IE */
+* html #center
+{
+	height: 100px;
+}	
+/* @end */
+
+#center2 {
+	width: 777px;
+	margin: 0 auto;
+}
+	
+#menu {
+	background: #fff;
+	width: 140px;
+	float: left;
+	text-align: left;
+}
+
+#menubottom {
+	background: url(layout/menubottom.png) no-repeat center center;
+	width: 140px;
+	float: left;
+	height: 21px;
+}
+
+
+
+
+#rechterkant { 
+
+/* onde está o texto, geral */
+	width: 630px;
+	float: right;
+}		
+	
+#inhoud { 
+	/*background: url(images/inhoudba.jpg) top left no-repeat;*/
+	min-height: 350px;
+	text-align: left;
+}	
+	
+/* Fix voor IE */
+* html #inhoud
+{
+	height: 400px;
+}	
+
+#introblok { 
+	width: 777px;
+	margin: 0 auto;
+}	
+	
+#logo { 
+	width: 145px;
+	height: 186px;
+	float: left;
+	background: url(layout/LogoTAUFP.jpg) no-repeat center center;
+	margin-top: 0px;
+}
+		
+#intro { 
+	min-height: 170px;
+	width: 630px;
+	/*background: #2c2e2a;*/
+	background: #fff;
+	color: #000;
+	float: left;
+	text-align: left;
+}	
+	
+/* Fix voor IE */
+* html #intro
+{
+	height: 170px;
+}		
+		
+.tekst { 
+	padding: 20px 20px 20px 20px;
+}
+
+.headerimage {
+	background: url(layout/headerimage.jpg) no-repeat top right;
+	height: 209px;
+}	
+
+.ondercleaner {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	line-height: 0px;
+	font-size: 0px;
+	clear: both;
+}	
+
+.cleaner {
+	height: 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	line-height: 0px;
+	font-size: 0px;
+	clear: both;
+}
+
+.cleaner2 {
+	height: 8px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	line-height: 0px;
+	font-size: 0px;
+	clear: both;
+}
+
+	
+
+a:link { 
+	font-weight: normal; 
+	text-decoration: none; 
+	color: #DBDBDB;
+	}
+a:visited { 
+	font-weight: normal; 
+	text-decoration: none; 
+	color: #DBDBDB;
+	}
+a:hover, a:active { 
+	text-decoration: underline; 
+	color: #DBDBDB;
+	}
+
+
+
+
+
+
+
+
+/* menu-vert */
+#nav  {
+	float: right;
+    width: 130px;
+	list-style: none;
+	background: #fff; 
+    padding: 0px;
+    margin: 35px 0px 0px 5px;
+    color: #000;
+}
+
+#nav ul  {
+	float: right;
+	list-style: none;
+	background: #fff; 
+      padding: 0px;
+	margin: 0px;
+      color: #000;    
+}
+
+#nav a {
+	display: block;              
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 0px 5px 5px;
+	margin: 0px;  
+      color: #000;
+      height: auto !important;
+      height: 1%;
+}
+
+#nav a:hover {
+	width: auto;
+	color: #fff;
+	background: #2c2E2a;
+	margin: 0px 0px 0px 0px;
+}
+
+#nav a.daddy { 
+	width: auto; margin: 0px 5px 0px 0px;
+	background: url(layout/rightarrow.gif) 96% 50% no-repeat;
+}
+
+#nav a.daddy:hover {
+	width: auto; margin: 0px 5px 0px 0px;
+	background: #2c2E2a url(layout/rightarrow.gif) 96% 50% no-repeat;
+}
+
+#nav li {
+      display: block; !important;
+      /* display: inline; */
+      position: relative;
+	padding: 0px;
+	width: auto;
+   
+}
+
+#nav li ul  {
+	position: absolute;
+      left: -999em;
+	height: auto;
+      width: auto;
+	font-weight: normal;
+	margin: 0px;
+	background: #fff;
+}
+
+* html #nav li, #nav li ul {
+	width: 135px;
+
+}
+
+#nav li li, #nav li ul a {
+	width: 135px;
+
+}
+
+#nav li ul ul {
+	margin: 0px;
+}
+
+#nav li:hover ul ul,
+#nav li:hover ul ul ul,
+#nav li:hover ul ul ul ul,
+#nav li:hover ul ul ul ul ul,
+#nav li.sfhover ul ul,
+#nav li.sfhover ul ul ul,
+#nav li.sfhover ul ul ul ul,
+#nav li.sfhover ul ul ul ul ul {
+      margin: -30px 0 0 0px;
+	left: -999em;
+}
+
+
+#nav li li:hover ul,
+#nav li li li:hover ul,
+#nav li li li li:hover ul,
+#nav li li li li li:hover ul,
+#nav li li.sfhover ul,
+#nav li li li.sfhover ul,
+#nav li li li li.sfhover ul, 
+#nav li li li li li.sfhover ul  {
+      left: 130px;
+      margin: -30px 0 0 0px;
+	background: #fff;
+}
+
+#nav li:hover ul, #nav li.sfhover ul {
+      left: 130px;
+      margin: -30px 0 0 0px;
+	background: #fff;
+}
+
+#nav li:hover,
+#nav li.sfhover {
+	background: #fff; 
+}
+
+#nav .MenuVertical_active a {
+	color: #f00;
+	text-decoration: none;
+}
